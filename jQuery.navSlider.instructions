@@ -1,0 +1,40 @@
+// Instructions and options for NavSlider jQuery Plugin
+
+	//INSTRUCTIONS
+		Call the navSlider method on the unordered list you are using for navigator or pop out menu.
+
+		NOTE: Make sure you have jQuery and jQuery UI loaded on your page.
+		Additionally make sure the following files have been applied.
+
+			jQuery.navSlider.plugin-release.css
+			jQuery.navSlider.plugin-release.js
+
+		You can look at the demo page and theme files to see how to style the slider.
+
+	
+	//OPTIONS
+	 You can also pass in various options. The defaults are highligted.
+
+
+			sliderSide: 			'left' or 'right' (default: left);
+
+			sliderVerticalOffset: 	For side-positioned slider, a numeric value (in pixels, but don't include px) you would
+								 	like to	offset the menu from the top of the page.(default: 140);
+
+			activateType: 			'click' or 'hover' (default: click); Changes if menu is activated on click or hover.
+
+			expandSpeed: 			Duration, in ms, of animation to expand menu from edge of page (default: 800);
+
+			collapseSpeed: 			Duration, in ms, of animation to collapse menu from edge of page (default: 600);
+
+			roundedCorners: 		'yes' or 'no' (default: no); Rounds corners of tab and menu. If using custom CSS, leave as default; 
+
+			tabLocation: 			'top', 'center', 'bottom' (default: top); Places tab along slider edge.
+
+			tabLocationOffset: 		For fine control over tab positioning, enter a numeric value (equivalent ot pixels, 
+									but don't include px). Positive moves it down, negative moves it up. (defaults: top=15, center=0, bottom= -15);
+
+			menuName: 				Customize the name on the tab of the menu. Tab will expand accordingly. (default: 'Menu');
+
+			menuCloseName: 			For click activation only, customize the name that appears when menu is open. Currently 
+									only handles text. (default: 'Close');

@@ -1,0 +1,65 @@
+/* Functional CSSfor the navSlider jQuery plugin */
+
+.navSlider, .navSlider li, .navSlider li a {
+	box-sizing: content-box;
+}
+
+.navSlider {
+	position: fixed;
+	z-index: 100;
+	max-width: 20em;
+	min-width: 10em;
+}
+
+.navSlider li {
+	width: 100%;
+}
+
+.navSlider-title {
+	display: inline-block;
+}
+
+.navSlider-title.navSlider-sliderSide-tabRotateForLeft {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.navSlider-title.navSlider-roundedCorners-tabCorners {
+	-webkit-border-radius: 0.3em 0.3em 0 0;
+	border-radius: 0.3em 0.3em 0 0;
+}
+
+.navSlider-title.navSlider-sliderSide-tabRotateForRight {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+}
+
+.navSlider .navSlider-roundedCorners-topListItemLeft {
+	-webkit-border-radius: 0 0.3em 0 0;
+	border-radius: 0 0.3em 0 0;
+}
+
+.navSlider .navSlider-roundedCorners-bottomListItemLeft {
+	-webkit-border-radius: 0 0 0.3em 0;
+	border-radius: 0 0 0.3em 0;
+}
+
+.navSlider .navSlider-roundedCorners-topListItemRight {
+	-webkit-border-radius: 0.3em 0 0 0;
+	border-radius: 0.3em 0 0 0;
+}
+
+.navSlider .navSlider-roundedCorners-bottomListItemRight {
+	-webkit-border-radius: 0 0 0 0.3em;
+	border-radius: 0 0 0 0.3em;
+}
+
+.navSlider li a {
+	display: block;
+}
